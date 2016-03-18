@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<meta name="viewport" content="width=device-width">
+  	<meta name="description" content="Cascading grid layout library">
+
+	<title>home_page</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scrollspy.js"></script>
+	<script type="text/javascript" src="js/homeMas.js"></script>
+	<script type="text/javascript" src="js/loginModal.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target="navbar" data-offset="50">
+	<header class="container-fluid">
+		<nav class="navbar" role="navigation">
+				<ul>
+					<li><a href="#grid_container"><img src="photos/logo.png"></a></li>
+					<li><a href="#aboutUs" title="About_us">About us</a></li>
+					<li><a href="#contact" title="Contact">Contact</a></li>
+					<li><button type="button" class="btn" id="loginBtn">Login</button></li>
+				</ul>
+		</nav>
+	</header>
+
+	<section id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    	<ol class="carousel-indicators">
+     		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      		<li data-target="#myCarousel" data-slide-to="1"></li>
+      		<li data-target="#myCarousel" data-slide-to="2"></li>
+    	</ol>
+
+    <!-- Wrapper for slides -->
+    	<div class="carousel-inner" role="listbox">
+      		<div class="item active">
+        		<div class="carousel-caption">
+          			<h3>Cool News!</h3>
+          			<p>Be the first who find out!</p>
+        		</div>      
+      		</div>
+
+      		<div class="item">
+        		<div class="carousel-caption">
+          			<h3>Learn fast</h3>
+          			<p>Grow your talent</p>
+        		</div>      
+      		</div>
+    
+     		<div class="item">
+        		<div class="carousel-caption">
+          			<h3>And don't forget</h3>
+          			<p>Join us!</p>
+        		</div>      
+      		</div>
+    	</div>
+
+    <!-- Left and right controls -->
+    	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      		<span class="sr-only">Previous</span>
+    	</a>
+    	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+     		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      		<span class="sr-only">Next</span>
+    	</a>
+	</section>
+<section>	<!-- section container -->
+
+	<!-- Mansonry Stuff -->
+	<section id="grid_container" class="container-fluid clearfix">
+		<div style="height: 240px"><div>1</div></div>
+		<div style="height: 340px"><div>2</div></div>
+		<div style="height: 280px"><div>3</div></div>
+		<div style="height: 320px"><div>4</div></div>
+		<div style="height: 440px"><div>5</div></div>
+		<div style="height: 260px"><div>6</div></div>
+		<div style="height: 350px"><div>7</div></div>
+		<div style="height: 440px"><div>8</div></div>
+		<div style="height: 390px"><div>9</div></div>
+		<div style="height: 510px"><div>10</div></div>
+		<div style="height: 440px"><div>11</div></div>
+		<div style="height: 560px"><div>12</div></div>
+		<div style="height: 350px"><div>13</div></div>
+		<div style="height: 440px"><div>14</div></div>
+		<div style="height: 590px"><div>15</div></div>
+		<div style="height: 340px"><div>16</div></div>
+		<div style="height: 440px"><div>17</div></div>
+
+	</section><!-- Mansonry Stuff -->
+	
+	<section class="afterMansonry container-fluid clearfix">
+	<!-- About us -->
+	<section id="aboutUs">
+	<h3>About Us</h3>
+		<p>Our mission is to help anyone learn anything.</p>
+		<p>We have created a fictional tech news website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+		</p>
+	
+		
+	</div class="row">
+		<div class="col-sm-4">
+			<p class="text-center"><strong>Ana</strong></p><br />
+			<a href="#demo" data-toggle="collapse">
+				<img src="photos/we.png" class="img-circle person" width="255" height="255">
+			</a>
+			<div id="demo" class="collapse">
+				<p>Back-end Developer</p>
+				<p>Data-base Enthusiastic</p>
+				<p>Wanna be Front-end Developer</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4">
+			<p class="text-center"><strong>Georgiana</strong></p><br />
+			<a href="#demo" data-toggle="collapse">
+				<img src="photos/we.png" class="img-circle person" width="255" height="255">
+			</a>
+			<div id="demo" class="collapse">
+				<p>Front-end Developer</p>
+				<p>Bootstrap Enthusiastic</p>
+				<p>Wanna be Front-end Developer</p>
+			</div>
+		</div>
+	</div>
+	</section> <!-- About us -->
+
+	<!-- Contact -->
+	<section id="contact" class="container-fluid">
+		
+	</section> <!-- contact -->
+	</section>
+</section> <!-- container section -->
+
+
+	<!-- Login Modal -->
+		<div class="modal fade" id="loginModal" role="dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          			<h4 style="color:red;"><span class="glyphicon glyphicon-lock"></span> Login</h4>
+				</div>
+				<div class="modal-body">
+					<form role="form">
+            			<div class="form-group">
+              				<label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              				<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            			</div>
+            			<div class="form-group">
+              				<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+             		 		<input type="text" class="form-control" id="psw" placeholder="Enter password">
+            			</div>
+            			<div class="checkbox">
+             				<label><input type="checkbox" value="" checked>Remember me</label>
+            			</div>
+            			<button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          			</form>
+				</div>
+				<div class="modal-footer">
+         			<button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          			<p>Not a member? <button type="button" class="btn" id="signupBtn">Sign Up</button></p>
+          			<p>Forgot <a href="#">Password?</a></p>
+        		</div>
+        		</div>
+			</div>
+		<div class="modal multi-step" id="signupModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title step-1" data-step="1">Sign up and start learning!</h4>
+                    <h4 class="modal-title step-2" data-step="2">Choose your preferences</h4>
+                </div>
+                <div class="modal-body step step-1">
+                    <form role="form">
+                    <div class="form-group">
+                      <label for="fullname"><span class="glyphicon glyphicon-user"></span> Full Name</label>
+                      <input type="text" class="form-control" id="fullname" placeholder="Your Full Name">
+                  </div>
+                  <div class="form-group">
+                      <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+                      <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                  </div>
+                  <div class="form-group">
+                      <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                    <input type="text" class="form-control" id="psw" placeholder="Enter password">
+                  </div>
+                  <div class="checkbox">
+                    <label><input type="checkbox" value="" checked>Remember me</label>
+                  </div>
+                  
+                </form>
+                </div>
+                <div class="modal-body step step-2">
+                    <form>
+                        <div class="checkbox">
+                  			<label><input type="checkbox" value="">Web Development</label>
+                	    </div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Mobile Apps</label>
+              			</div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Programming Languages</label>
+              			</div>
+              			<div class="checkbox">
+                			<label><input type="checkbox" value="">Game Development</label>
+              			</div>
+              			<div class="checkbox">
+                 			<label><input type="checkbox" value="">Design</label>
+              			</div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Software Testing</label>
+              			</div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Software Engineering</label>
+              			</div>
+              			<div class="checkbox">
+                			<label><input type="checkbox" value="">Development Tools</label>
+              			</div>
+              			<div class="checkbox disabled">
+                  			<label><input type="checkbox" value="">Network and Security</label>
+              			</div>
+              			<div class="checkbox">
+                			<label><input type="checkbox" value="">Hardware</label>
+              			</div>
+             			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Operating Systems</label>
+              			</div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Database</label>
+              			</div>
+              			<button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span>Sign up!</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary step step-1" data-step="1" onclick="sendEvent('#signupModal', 2)">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div><!--modal sign up-->
+    <script type="text/javascript" src="js/multi-step-modal.js"></script>
+    <script>
+		sendEvent = function(sel, step) {
+    	$(sel).trigger('next.m.' + step);
+		}
+	</script>
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br> 
+</footer>
+
+</body>
+</html>
