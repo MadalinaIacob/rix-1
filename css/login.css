@@ -1,0 +1,54 @@
+
+header nav{
+	font: 16px Arial, Helvetica, sans-serif;
+	margin: 50px auto;
+}
+header nav ul{
+	margin: 0;
+	/*position: fixed;*/
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+	border-bottom: 1px solid #808080;
+	height: 90px;
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	text-decoration: none;
+	display: inline;
+	color: #808080;
+	padding: 5px 25px;
+	margin-right: 280px;
+	margin-left: 140px;
+
+}
+header nav li a:hover{
+	color: black;
+}
+header img{
+	width:75px;*/
+	height:35px;*/
+	/*position: fixed;*/
+}
+section form{
+	font-size: 14px;
+	padding-left: 300px;
+}
+
+{
+	background: #000;
+      color: #fff;
+}
+
+#addButton{
+	margin-left: 16px;
+}
+
+#registerButton{
+	margin-top: 100px;
+	margin-left: 100px;
+}
+

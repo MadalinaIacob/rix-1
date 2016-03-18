@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+	<title>MyProfile</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<!-- <link rel="stylesheet" type="text/php" href="php/register.php"> -->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><a href="home.html"><img src="photos/logo.png"></a></li>
+		</ul>
+	</nav>
+</header>
+<section>
+<form class="form-horizontal" method="post" action="">
+	<div class="form-group">
+		<label for="inputUsername" class="col-sm-2 control-label">Username</label>
+		<div class="col-xs-4">
+			<input type="username" class="form-control" id="inputUsername" placeholder="Username"></input>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="inputEmail" class="col-sm-2 control-label">Email</label>
+		<div class="col-xs-4">
+			<input type="email" class="form-control" id="inputEmail" placeholder="Email"></input>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="inputPassword" class="col-sm-2 control-label">Password</label>
+		<div class="col-xs-4">
+			<input type="password" class="form-control" id=inputPassword placeholder="Password"></input>
+		</div>
+	</div>
+
+	<div class="form-group" id="addButton">
+  <!-- Trigger the modal with a button -->
+
+  			<label for="inputPref" class="col-sm-2 control-label">Choose your preferences</label>
+  			<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">You can choose as many preferences as you want from the list above:</h4>
+        </div>
+        <div class="modal-body">
+            <div class="checkbox">
+  				<label><input type="checkbox" value="">Web Development</label>
+		    </div>
+			<div class="checkbox">
+  				<label><input type="checkbox" value="">Mobile Apps</label>
+			</div>
+			<div class="checkbox disabled">
+  				<label><input type="checkbox" value="">Programming Languages</label>
+			</div>
+			<div class="checkbox">
+ 				<label><input type="checkbox" value="">Game Development</label>
+			</div>
+			<div class="checkbox">
+  				<label><input type="checkbox" value="">Design</label>
+			</div>
+			<div class="checkbox disabled">
+  				<label><input type="checkbox" value="">Software Testing</label>
+			</div>
+			<div class="checkbox">
+  				<label><input type="checkbox" value="">Software Engineering</label>
+			</div>
+			<div class="checkbox">
+ 				<label><input type="checkbox" value="">Development Tools</label>
+			</div>
+			<div class="checkbox disabled">
+  				<label><input type="checkbox" value="">Network and Security</label>
+			</div>
+			<div class="checkbox">
+ 				<label><input type="checkbox" value="">Hardware</label>
+			</div>
+			<div class="checkbox">
+  				<label><input type="checkbox" value="">Operating Systems</label>
+			</div>
+			<div class="checkbox disabled">
+  				<label><input type="checkbox" value="">Database</label>
+			</div>
+			
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+
+	<div class="form-group" id=registerButton>
+		<div class="col-sm-offset-2 col-sm-10">
+			<button type="submit" class="btn btn-default">Register</button>
+		</div>
+	</div>
+</form>
+</section>
+</body>
+
+</html>
