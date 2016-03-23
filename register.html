@@ -6,7 +6,7 @@
 	<title>MyProfile</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/login.css">
-	<!-- <link rel="stylesheet" type="text/php" href="php/register.php"> -->
+	<link rel="stylesheet" type="text/php" href="php/register.php"> 
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -24,23 +24,23 @@
 	</nav>
 </header>
 <section>
-<form class="form-horizontal" method="post" action="">
+<form class="form-horizontal" method="post" action="register.php">
 	<div class="form-group">
 		<label for="inputUsername" class="col-sm-2 control-label">Username</label>
 		<div class="col-xs-4">
-			<input type="username" class="form-control" id="inputUsername" placeholder="Username"></input>
+			<input type="username" name="inUsername" class="form-control" id="inputUsername" placeholder="Username"></input>
 		</div>
 	</div>
 	<div class="form-group">
 		<label for="inputEmail" class="col-sm-2 control-label">Email</label>
 		<div class="col-xs-4">
-			<input type="email" class="form-control" id="inputEmail" placeholder="Email"></input>
+			<input type="email" name="inEmail" class="form-control" id="inputEmail" placeholder="Email"></input>
 		</div>
 	</div>
 	<div class="form-group">
 		<label for="inputPassword" class="col-sm-2 control-label">Password</label>
 		<div class="col-xs-4">
-			<input type="password" class="form-control" id=inputPassword placeholder="Password"></input>
+			<input type="password" name="inPassword" class="form-control" id=inputPassword placeholder="Password"></input>
 		</div>
 	</div>
 
