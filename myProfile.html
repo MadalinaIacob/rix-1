@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/after-login.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/my-profile.css" media="screen">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -26,7 +26,13 @@
 				<li><a href="home.html"><img src="photos/logo.png"></a></li>
 				<li><a href="#" title="About_us">About us</a></li>
 				<li><a href="#" title="Contact">Contact</a></li>
-				<li><a href="#" title="MyFav">My favorites</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Favorites<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><button type="button" class="btn" id="newsBtn">My News</button></li>
+						<li><button type="button" class="btn" id="addBtn">Add Interests</button></li>
+					</ul>
+				</li>
 				<li><a href="home.html" title="Logout">Logout</a></li>
 			</ul>
 		</nav>

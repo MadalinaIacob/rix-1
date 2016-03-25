@@ -81,9 +81,6 @@ nav li a:hover{
  .carousel-inner .item:nth-child(3){
  	background-image: url(../photos/technology.jpg);
  }
- .carousel-inner img {
-      margin: auto;
-  }
  .carousel-caption h3 {
       color: #fff !important;
   }

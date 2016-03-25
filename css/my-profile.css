@@ -1,7 +1,6 @@
 .search-box{
 	display: flex;
-	left: 50%;
-	margin-left: 620px;
+	margin-left: 43%;
 }
 .search-box:active{
 	border: none !important;/*it doesn't work*/*/
@@ -20,13 +19,29 @@
 	display: inline-block;
 	text-align: start;
 	font: 13px Arial;
-	position: absolute;
+	/*position: absolute;*/
 }
 .glyphicons-search{
-	position: absolute;
+	/*position: absolute;*/
 	left: 11px;
 	top: 9px;
 	width: 10px;
 	height: 10px;
 
+}
+#addBtn,
+#newsBtn{
+	background-color: transparent;
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #808080;
+	padding: 5px 25px;
+	outline: 0;
+	box-shadow: none;
+}
+/*#addBtn,
+#newsBtn:hover{
+	color: black;
+}*/
+.dropdown-menu{
+	height: 70px;
 }

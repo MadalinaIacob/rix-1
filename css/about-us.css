@@ -1,0 +1,27 @@
+ h3{
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;      
+      font-size: 20px;
+      color: #111;
+  }
+.main-text{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+.row{
+  display: inline;
+ }
+.col-sm-3{
+  border: none;
+  width: 140px;
+}
+@media (min-width: 768px){
+.col-sm-4{
+  width: 25%;
+}
+.person {
+     margin-left: 32%;
+}
+.person:hover {
+      border-color: #f1f1f1;
+  }

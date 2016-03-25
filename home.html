@@ -11,12 +11,14 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/about-us.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/scrollspy.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/scrollspy.js"></script>
 	<script type="text/javascript" src="js/homeMas.js"></script>
-	<script type="text/javascript" src="js/loginModal.js"></script>
+	<script type="text/javascript" src="js/ModalEventHandler.js"></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target="navbar" data-offset="50">
@@ -100,39 +102,62 @@
 	<section class="afterMansonry container-fluid clearfix">
 	<!-- About us -->
 	<section id="aboutUs">
-	<h3>About Us</h3>
-		<p>Our mission is to help anyone learn anything.</p>
-		<p>We have created a fictional tech news website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		</p>
-	
-		
-	</div class="row">
-		<div class="col-sm-4">
-			<p class="text-center"><strong>Ana</strong></p><br />
-			<a href="#demo" data-toggle="collapse">
-				<img src="photos/we.png" class="img-circle person" width="255" height="255">
-			</a>
-			<div id="demo" class="collapse">
-				<p>Back-end Developer</p>
-				<p>Data-base Enthusiastic</p>
-				<p>Wanna be Front-end Developer</p>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-sm-4">
-			<p class="text-center"><strong>Georgiana</strong></p><br />
-			<a href="#demo" data-toggle="collapse">
-				<img src="photos/we.png" class="img-circle person" width="255" height="255">
-			</a>
-			<div id="demo" class="collapse">
-				<p>Front-end Developer</p>
-				<p>Bootstrap Enthusiastic</p>
-				<p>Wanna be Front-end Developer</p>
-			</div>
-		</div>
-	</div>
-	</section> <!-- About us -->
+  <h3 class="text-center">About Us</h3>
+    <p class="text-center">Our mission is to help anyone learn anything.</p>
+    <p class="text-center">We have created a fictional tech news website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  
+    
+  </div class="row">
+    <div class="col-sm-3">
+      <p class="text-center"><strong>Ana</strong></p><br />
+      <a href="#demo1" data-toggle="collapse">
+        <img src="photos/we.png" class="img-circle person" width="120" height="120">
+      </a>
+      <div id="demo1" class="collapse">
+        <p>Back-end Developer</p>
+        <p>Data-base Enthusiastic</p>
+        <p>Wanna be Front-end Developer</p>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <p class="text-center"><strong>Georgiana</strong></p><br />
+      <a href="#demo2" data-toggle="collapse">
+        <img src="photos/we.png" class="img-circle person" width="120" height="120">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Front-end Developer</p>
+        <p>Bootstrap Enthusiastic</p>
+        <p>Wanna be Front-end Developer</p>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <p class="text-center"><strong>Madalina</strong></p><br />
+      <a href="#demo3" data-toggle="collapse">
+        <img src="photos/we.png" class="img-circle person" width="120" height="120">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Front-end Developer</p>
+        <p>Bootstrap Enthusiastic</p>
+        <p>Wanna be Front-end Developer</p>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <p class="text-center"><strong>Diana</strong></p><br />
+      <a href="#demo4" data-toggle="collapse">
+        <img src="photos/we.png" class="img-circle person" width="120" height="120">
+      </a>
+      <div id="demo4" class="collapse">
+        <p>Front-end Developer</p>
+        <p>Bootstrap Enthusiastic</p>
+        <p>Wanna be Front-end Developer</p>
+      </div>
+    </div>
+  </div>
+  </section> <!-- About us -->
 
 	<!-- Contact -->
 	<section id="contact" class="container-fluid">
@@ -191,7 +216,7 @@
              				<label><input type="checkbox" value="" checked>Remember me</label>
             			</div>
             			<button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-          			</form>
+          	</form>
 				</div>
 				<div class="modal-footer">
          			<button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
