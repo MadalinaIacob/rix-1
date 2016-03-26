@@ -17,6 +17,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/scrollspy.js"></script>
 	<script type="text/javascript" src="js/homeMas.js"></script>
+	<script type="text/javascript" src="js/ModalEventHandler.js"></script>
 	
 </head>
 <body id="myPage" data-spy="scroll" data-target="navbar" data-offset="50">
@@ -29,8 +30,8 @@
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Favorites<b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><button type="button" class="btn" id="newsBtn">My News</button></li>
-						<li><button type="button" class="btn" id="addBtn">Add Interests</button></li>
+						<li><button type="button" class="btn" id="newsBtn">My Prefered News</button></li>
+						<li><button type="button" class="btn" id="addBtn">Add New Preferences</button></li>
 					</ul>
 				</li>
 				<li><a href="home.html" title="Logout">Logout</a></li>
@@ -39,7 +40,61 @@
 	</header>
 	<div class="search-box">
 		<input id="search-input" type="text" placeholder="Search"></input>
-		<span class="glyphicons glyphicons-search"></span>
 	</div>
+
+<!-- Add Modal -->
+	<div class="modal fade" id="addModal" role="dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+          		<h4 style="color:red;"><span class="glyphicon glyphicon-lock"></span> Add Preferences</h4>
+			</div>
+			<div class="modal-body">
+				<form>
+                        <div class="checkbox">
+                  			<label><input type="checkbox" value="">Web Development</label>
+                	    </div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Mobile Apps</label>
+              			</div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Programming Languages</label>
+              			</div>
+              			<div class="checkbox">
+                			<label><input type="checkbox" value="">Game Development</label>
+              			</div>
+              			<div class="checkbox">
+                 			<label><input type="checkbox" value="">Design</label>
+              			</div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Software Testing</label>
+              			</div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Software Engineering</label>
+              			</div>
+              			<div class="checkbox">
+                			<label><input type="checkbox" value="">Development Tools</label>
+              			</div>
+              			<div class="checkbox disabled">
+                  			<label><input type="checkbox" value="">Network and Security</label>
+              			</div>
+              			<div class="checkbox">
+                			<label><input type="checkbox" value="">Hardware</label>
+              			</div>
+             			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Operating Systems</label>
+              			</div>
+              			<div class="checkbox">
+                  			<label><input type="checkbox" value="">Database</label>
+              			</div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                	<button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                   <button type="button" class="btn add-btn" id="addBtn">Add Preferences</button>
+                </div>
+        </div>
+	</div>
+<!-- Add Modal -->
 </body>
 </html>

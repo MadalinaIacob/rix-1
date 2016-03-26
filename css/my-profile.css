@@ -19,6 +19,7 @@
 	display: inline-block;
 	text-align: start;
 	font: 13px Arial;
+	text-align: left;
 	/*position: absolute;*/
 }
 .glyphicons-search{
@@ -27,7 +28,6 @@
 	top: 9px;
 	width: 10px;
 	height: 10px;
-
 }
 #addBtn,
 #newsBtn{
@@ -40,8 +40,40 @@
 }
 /*#addBtn,
 #newsBtn:hover{
-	color: black;
+	text-decoration: underline;
 }*/
 .dropdown-menu{
-	height: 70px;
+	height: 80px;
+	width: 200px;
+}
+
+/*add modal*/
+.modal-header, h4, .close {
+      text-align: center;
+      font-size: 30px;
+  }
+.modal-footer {
+      background-color: #f9f9f9;
+  }
+.modal-header{
+  	padding: 35px 50px;
+  }
+.modal-body{
+  	padding: 10px 50px;
+  }
+#addModal{
+	margin: auto;
+	margin-top: 50px; 
+	width: 600px;
+	height: auto;	
+}
+.add-btn {
+  background-color: #fff;
+  border-color: #ccc;
+  color: #333;
+}
+.add-btn:hover{
+	background-color: #e6e6e6 !important;
+	border-color: #adadad;
+	color: #333;
 }
